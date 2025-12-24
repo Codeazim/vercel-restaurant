@@ -150,7 +150,7 @@ const App = () => {
       <section className="team">
         <h2 className="sarlavha uuu">
           <img src={horizontal} alt="img" />
-          Team Members
+          Testimonial
           <img src={horizontal} alt="img" />
         </h2>
         <h1 className='mtv'>Our Master Chefs</h1>
