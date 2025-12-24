@@ -3,7 +3,7 @@ import "./App.css"
 import hdrimg1 from "./assets/Logo.png"
 import hdrimg3 from "./assets/hdrrghimg.png"
 import master1 from "./assets/Symbol.png"
-import master2 from "./assets/symbol2.png"
+import master2 from "./assets/symbol2.png" 
 import master3 from "./assets/Symbol3.png"
 import master4 from "./assets/Symbol4.png"
 import about1 from "./assets/about1.jpg"
@@ -150,7 +150,7 @@ const App = () => {
       <section className="team">
         <h2 className="sarlavha uuu">
           <img src={horizontal} alt="img" />
-          Testimonial
+          Team Members
           <img src={horizontal} alt="img" />
         </h2>
         <h1 className='mtv'>Our Master Chefs</h1>
@@ -180,7 +180,7 @@ const App = () => {
       <section className="testimonials">
         <h2 className="sarlavha uuu">
           <img src={horizontal} alt="img" />
-          Team Members
+          Testimonials
           <img src={horizontal} alt="img" />
         </h2>
         <h1 className="mtv ttt">Our Clients Say!!!</h1>
