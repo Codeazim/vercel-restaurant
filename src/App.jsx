@@ -1,30 +1,30 @@
 import React from 'react'
 import "./App.css"
-import hdrimg1 from "../src/assets/Logo.png"
-import hdrimg3 from "../src/assets/hdrrghimg.png"
-import master1 from "../src/assets/Symbol.png"
-import master2 from "../src/assets/Symbol2.png"
-import master3 from "../src/assets/Symbo3.png"
-import master4 from "../src/assets/Symbol4.png"
-import about1 from "../src/assets/about1.jpg"
-import about2 from "../src/assets/about2.jpg"
-import about3 from "../src/assets/about3.jpg"
-import about4 from "../src/assets/about4.jpg"
-import horizontal from "../src/assets/Horizontal Divider.png"
-import ppyy1 from "../src/assets/Paragraph+VerticalBorder.png"
-import ppyy2 from "../src/assets/fsadf.png"
-import menu1 from "../src/assets/1.jpg"
-import menu2 from "../src/assets/2.jpg"
-import menu3 from "../src/assets/3.jpg"
-import menu4 from "../src/assets/4.jpg"
-import menu5 from "../src/assets/5.jpg"
-import menu6 from "../src/assets/6.jpg"
-import menu7 from "../src/assets/7.jpg"
-import menu8 from "../src/assets/8.jpg"
-import contactimg from "../src/assets/contackimg.jpg"
-import team1 from "../src/assets/678ebd512b1597ac257ef87a9ff59a8e245a60ab.jpg"
-import tstimg from "../src/assets/qosh.png"
-import ccc from "../src/assets/611ac053d9c5a3c5ad29ba0a3d99cf1ec3ea9b03.jpg"
+import hdrimg1 from "./assets/Logo.png"
+import hdrimg3 from "./assets/hdrrghimg.png"
+import master1 from "./assets/Symbol.png"
+import master2 from "./assets/Symbol2.png"
+import master3 from "./assets/Symbo3.png"
+import master4 from "./assets/Symbol4.png"
+import about1 from "./assets/about1.jpg"
+import about2 from "./assets/about2.jpg"
+import about3 from "./assets/about3.jpg"
+import about4 from "./assets/about4.jpg"
+import horizontal from "./assets/Horizontal Divider.png"
+import ppyy1 from "./assets/Paragraph+VerticalBorder.png"
+import ppyy2 from "./assets/fsadf.png"
+import menu1 from "./assets/1.jpg"
+import menu2 from "./assets/2.jpg"
+import menu3 from "./assets/3.jpg"
+import menu4 from "./assets/4.jpg"
+import menu5 from "./assets/5.jpg"
+import menu6 from "./assets/6.jpg"
+import menu7 from "./assets/7.jpg"
+import menu8 from "./assets/8.jpg"
+import contactimg from "./assets/contackimg.jpg"
+import team1 from "./assets/678ebd512b1597ac257ef87a9ff59a8e245a60ab.jpg"
+import tstimg from "./assets/qosh.png"
+import ccc from "./assets/611ac053d9c5a3c5ad29ba0a3d99cf1ec3ea9b03.jpg"
 const App = () => {
   const master = [
     { name: "Master Chefs", text: "Diam elitr kasd sed at elitr sed ipsum justo dolor sed clita amet diam", img: master1 },
@@ -43,7 +43,7 @@ const App = () => {
     { name: "Chicken Burger", price: "$115", img: menu8, text: "Ipsum ipsum clita erat amet dolor justo diam" },
   ]
   return (
-    <body>
+    <div>
       <header>
         <nav>
           <img src={hdrimg1} alt="img" className='logo' />
@@ -133,7 +133,7 @@ const App = () => {
               <input type="text" placeholder='Your Name' className="name" />
               <input type="text" placeholder='Your Email' className="name" />
               <input type="text" placeholder='Date & Time' className="name" />
-              <div class="select-container">
+              <div className="select-container">
                 <select id="people-count" name="people-count">
                   <option value="1">People 1</option>
                   <option value="2">People 2</option>
@@ -252,7 +252,7 @@ const App = () => {
           <button>^</button>
         </div>
       </footer>
-    </body>
+    </div>
   )
 }
 
